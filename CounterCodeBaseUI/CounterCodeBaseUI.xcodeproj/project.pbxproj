@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		78120DA22D94000300E65BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78120D832D94000100E65BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78120D8A2D94000100E65BE8;
+			remoteInfo = CounterCodeBaseUI;
+		};
+		78120DAC2D94000300E65BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78120D832D94000100E65BE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78120D8A2D94000100E65BE8;
+			remoteInfo = CounterCodeBaseUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78120D8B2D94000100E65BE8 /* CounterCodeBaseUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterCodeBaseUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78120DA12D94000300E65BE8 /* CounterCodeBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterCodeBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78120DAB2D94000300E65BE8 /* CounterCodeBaseUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterCodeBaseUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		78120DB32D94000300E65BE8 /* Exceptions for "CounterCodeBaseUI" folder in "CounterCodeBaseUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78120D8A2D94000100E65BE8 /* CounterCodeBaseUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78120D8D2D94000100E65BE8 /* CounterCodeBaseUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78120DB32D94000300E65BE8 /* Exceptions for "CounterCodeBaseUI" folder in "CounterCodeBaseUI" target */,
+			);
+			path = CounterCodeBaseUI;
+			sourceTree = "<group>";
+		};
+		78120DA42D94000300E65BE8 /* CounterCodeBaseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CounterCodeBaseUITests;
+			sourceTree = "<group>";
+		};
+		78120DAE2D94000300E65BE8 /* CounterCodeBaseUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CounterCodeBaseUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78120D882D94000100E65BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120D9E2D94000300E65BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120DA82D94000300E65BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78120D822D94000100E65BE8 = {
+			isa = PBXGroup;
+			children = (
+				78120D8D2D94000100E65BE8 /* CounterCodeBaseUI */,
+				78120DA42D94000300E65BE8 /* CounterCodeBaseUITests */,
+				78120DAE2D94000300E65BE8 /* CounterCodeBaseUIUITests */,
+				78120D8C2D94000100E65BE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78120D8C2D94000100E65BE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78120D8B2D94000100E65BE8 /* CounterCodeBaseUI.app */,
+				78120DA12D94000300E65BE8 /* CounterCodeBaseUITests.xctest */,
+				78120DAB2D94000300E65BE8 /* CounterCodeBaseUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78120D8A2D94000100E65BE8 /* CounterCodeBaseUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78120DB42D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUI" */;
+			buildPhases = (
+				78120D872D94000100E65BE8 /* Sources */,
+				78120D882D94000100E65BE8 /* Frameworks */,
+				78120D892D94000100E65BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78120D8D2D94000100E65BE8 /* CounterCodeBaseUI */,
+			);
+			name = CounterCodeBaseUI;
+			packageProductDependencies = (
+			);
+			productName = CounterCodeBaseUI;
+			productReference = 78120D8B2D94000100E65BE8 /* CounterCodeBaseUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78120DA02D94000300E65BE8 /* CounterCodeBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78120DB92D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUITests" */;
+			buildPhases = (
+				78120D9D2D94000300E65BE8 /* Sources */,
+				78120D9E2D94000300E65BE8 /* Frameworks */,
+				78120D9F2D94000300E65BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78120DA32D94000300E65BE8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78120DA42D94000300E65BE8 /* CounterCodeBaseUITests */,
+			);
+			name = CounterCodeBaseUITests;
+			packageProductDependencies = (
+			);
+			productName = CounterCodeBaseUITests;
+			productReference = 78120DA12D94000300E65BE8 /* CounterCodeBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78120DAA2D94000300E65BE8 /* CounterCodeBaseUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78120DBC2D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUIUITests" */;
+			buildPhases = (
+				78120DA72D94000300E65BE8 /* Sources */,
+				78120DA82D94000300E65BE8 /* Frameworks */,
+				78120DA92D94000300E65BE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78120DAD2D94000300E65BE8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78120DAE2D94000300E65BE8 /* CounterCodeBaseUIUITests */,
+			);
+			name = CounterCodeBaseUIUITests;
+			packageProductDependencies = (
+			);
+			productName = CounterCodeBaseUIUITests;
+			productReference = 78120DAB2D94000300E65BE8 /* CounterCodeBaseUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78120D832D94000100E65BE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					78120D8A2D94000100E65BE8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					78120DA02D94000300E65BE8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78120D8A2D94000100E65BE8;
+					};
+					78120DAA2D94000300E65BE8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78120D8A2D94000100E65BE8;
+					};
+				};
+			};
+			buildConfigurationList = 78120D862D94000100E65BE8 /* Build configuration list for PBXProject "CounterCodeBaseUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78120D822D94000100E65BE8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78120D8C2D94000100E65BE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78120D8A2D94000100E65BE8 /* CounterCodeBaseUI */,
+				78120DA02D94000300E65BE8 /* CounterCodeBaseUITests */,
+				78120DAA2D94000300E65BE8 /* CounterCodeBaseUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78120D892D94000100E65BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120D9F2D94000300E65BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120DA92D94000300E65BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78120D872D94000100E65BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120D9D2D94000300E65BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78120DA72D94000300E65BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78120DA32D94000300E65BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78120D8A2D94000100E65BE8 /* CounterCodeBaseUI */;
+			targetProxy = 78120DA22D94000300E65BE8 /* PBXContainerItemProxy */;
+		};
+		78120DAD2D94000300E65BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78120D8A2D94000100E65BE8 /* CounterCodeBaseUI */;
+			targetProxy = 78120DAC2D94000300E65BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78120DB52D94000300E65BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterCodeBaseUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78120DB62D94000300E65BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CounterCodeBaseUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78120DB72D94000300E65BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78120DB82D94000300E65BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78120DBA2D94000300E65BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterCodeBaseUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CounterCodeBaseUI";
+			};
+			name = Debug;
+		};
+		78120DBB2D94000300E65BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CounterCodeBaseUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CounterCodeBaseUI";
+			};
+			name = Release;
+		};
+		78120DBD2D94000300E65BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CounterCodeBaseUI;
+			};
+			name = Debug;
+		};
+		78120DBE2D94000300E65BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373K7546A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.by.CounterCodeBaseUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CounterCodeBaseUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78120D862D94000100E65BE8 /* Build configuration list for PBXProject "CounterCodeBaseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78120DB72D94000300E65BE8 /* Debug */,
+				78120DB82D94000300E65BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78120DB42D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78120DB52D94000300E65BE8 /* Debug */,
+				78120DB62D94000300E65BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78120DB92D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78120DBA2D94000300E65BE8 /* Debug */,
+				78120DBB2D94000300E65BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78120DBC2D94000300E65BE8 /* Build configuration list for PBXNativeTarget "CounterCodeBaseUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78120DBD2D94000300E65BE8 /* Debug */,
+				78120DBE2D94000300E65BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78120D832D94000100E65BE8 /* Project object */;
+}
