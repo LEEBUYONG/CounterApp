@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         upButton.backgroundColor = .blue
         upButton.layer.cornerRadius = 8
         upButton.titleLabel?.textColor = .white
+        // ===== 버튼 클릭 시 숫자 증가 로직 연결=====
+        upButton.addTarget(self, action: #selector(upButtonTapped), for: .touchDown)
         
         upButton.snp.makeConstraints {
             $0.width.equalTo(80)
@@ -52,6 +54,7 @@ class ViewController: UIViewController {
         downButton.backgroundColor = .red
         downButton.layer.cornerRadius = 8
         downButton.titleLabel?.textColor = .white
+        downButton.addTarget(self, action: #selector(downButtonTapped), for: .touchDown)
         
         downButton.snp.makeConstraints {
             $0.width.equalTo(80)
@@ -60,7 +63,17 @@ class ViewController: UIViewController {
             $0.trailing.equalTo(countLabel.snp.leading).offset(-32)
         }
     }
-
-
+    
+    @objc
+    private func upButtonTapped() {
+        self.number += 1
+        countLabel.text = "\(number)"
+    }
+    
+    @objc
+    private func downButtonTapped() {
+        self.number -= 1
+        countLabel.text = "\(number)"
+    }
 }
 
