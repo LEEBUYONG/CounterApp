@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78751BE82D94FC6100E9E169 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78751BE72D94FC6100E9E169 /* SnapKit */; };
-		78751BEA2D94FC6100E9E169 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 78751BE92D94FC6100E9E169 /* SnapKit-Dynamic */; };
+		78751C392D95114F00E9E169 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78751C382D95114F00E9E169 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78751BE82D94FC6100E9E169 /* SnapKit in Frameworks */,
-				78751BEA2D94FC6100E9E169 /* SnapKit-Dynamic in Frameworks */,
+				78751C392D95114F00E9E169 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +130,7 @@
 			);
 			name = CounterCodeBaseUI;
 			packageProductDependencies = (
-				78751BE72D94FC6100E9E169 /* SnapKit */,
-				78751BE92D94FC6100E9E169 /* SnapKit-Dynamic */,
+				78751C382D95114F00E9E169 /* SnapKit */,
 			);
 			productName = CounterCodeBaseUI;
 			productReference = 78120D8B2D94000100E65BE8 /* CounterCodeBaseUI.app */;
@@ -218,7 +215,7 @@
 			mainGroup = 78120D822D94000100E65BE8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				78751BD32D94F2BE00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				78751C372D95114F00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78120D8C2D94000100E65BE8 /* Products */;
@@ -581,7 +578,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		78751BD32D94F2BE00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		78751C372D95114F00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -592,15 +589,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		78751BE72D94FC6100E9E169 /* SnapKit */ = {
+		78751C382D95114F00E9E169 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 78751BD32D94F2BE00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 78751C372D95114F00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		78751BE92D94FC6100E9E169 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 78751BD32D94F2BE00E9E169 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
